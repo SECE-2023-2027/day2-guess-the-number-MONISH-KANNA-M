@@ -1,0 +1,79 @@
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.again {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.between {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem 0 1rem;
+}
+
+.number {
+  font-size: 6rem;
+  width: 100px;
+  height: 100px;
+  margin: 1rem auto;
+  background: #eee;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.main {
+  margin: 2rem 0;
+}
+
+.guess {
+  padding: 1rem;
+  width: 100px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.check {
+  padding: 1rem 2rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.message {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.score,
+.highscore {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
